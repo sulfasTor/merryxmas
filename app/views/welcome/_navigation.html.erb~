@@ -1,0 +1,5 @@
+<header style="padding:0px;">
+		
+  <li><%= link_to "Home", root_path%></li>
+			
+</header>

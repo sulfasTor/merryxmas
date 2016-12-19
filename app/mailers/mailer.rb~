@@ -1,0 +1,9 @@
+class Mailer < ActionMailer::Base
+  layout 'mailer'
+
+  def contact_form(merrier)
+    @merrier = merrier
+    @to = "<My mail>"
+    
+  end
+end

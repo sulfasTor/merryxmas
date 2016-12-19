@@ -1,0 +1,5 @@
+<% Merrier.all.each do |merrier| %>
+<p>
+	<%= link_to merrier.message, merrier %>
+</p>
+<% end %>

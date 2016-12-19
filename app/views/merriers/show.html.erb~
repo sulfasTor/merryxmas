@@ -1,0 +1,5 @@
+<h1>You sent a message to Sulf.</h1>
+
+<p>The message is:
+  <%= @merriers.first_name%>
+</p>

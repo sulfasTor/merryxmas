@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+    <p><strong><%= @merrier.name %> </strong> wished you a merry xmas!
+
+    <p> Message: </p>
+    
+    <p>
+      <%= @merrier.message %>
+    </p>
+
+    <%= yield %>
+		      
+  </body>
+</html>
+

@@ -1,0 +1,16 @@
+<div align="center">
+
+<%= simple_form_for @merrier do |f| %>
+
+  <%= f.input :name %><br />
+  <%= f.input :email %><br />
+  <%= f.input :message, :as => :text %><br />
+  <div class= "hidden">
+    <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+  </div>
+
+<br />
+  <%= f.button :submit,  "Submit"%>
+  <% end %>
+
+</div>
